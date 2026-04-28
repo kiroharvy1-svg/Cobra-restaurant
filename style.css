@@ -1,0 +1,172 @@
+h2 {
+    color: red;
+    display: block; 
+  
+    background-color: rgb(0, 0, 0);
+  
+   padding: 6px 12px ;
+   display: inline-block;
+ border-radius: auto;
+ background-position: 20px;
+ background-clip: border-box;
+text-shadow:  black;
+margin: 30px;
+margin-top:  40px; 
+
+text-size-adjust: 50%;
+}
+body {
+    background-image: url('80u860pvc5x21.jpg');
+   background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;
+   backdrop-filter: blur(6px);   
+   display: auto;
+}
+p {
+    color: white;
+    font-size: 25px;
+   
+    text-shadow: 2px 2px 4px black;
+}
+tr {
+    color: white;
+    font-size: 20px;
+   
+    text-shadow: 2px 2px 4px black;
+}
+h1 {
+    color: rgb(13, 255, 0);
+    font-size: 50px;
+   text-align: center;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+
+
+form {
+   position: relative;
+   z-index: 1;
+}
+form::before{
+     content: "";
+     position: absolute;
+     inset: 0;
+     backdrop-filter: blur(2px);
+     z-index: -1;
+     border-radius: 10px;
+    }
+
+input[type="submit"] {
+   background-color: black;
+       background-repeat: repeat;
+    color: white;
+    padding: 25px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    
+        display: flex;
+    flex-direction: column;
+   
+}
+input[type="button"] {
+    background-color: red;
+    background-repeat: repeat;
+    color: white;
+    padding: 25px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    
+        display: flex;
+    flex-direction: column;
+}
+input[type="Email"] {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   margin-bottom: 25px;
+       display: flex;
+    flex-direction: column;
+}               
+input[type="number"] {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 25px;
+        display: flex;
+    flex-direction: column;
+}
+
+
+select {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+input[type="file"] {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+input[type="password"] {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 25px;
+        display: flex;
+    flex-direction: column;
+}
+label {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 10px;
+}
+input[type="buttom.k"] {
+    background-color: black;
+   background-repeat: repeat;
+    color: white;
+    padding: 25px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 25px;
+    
+        display: flex;
+    flex-direction: column;
+}
